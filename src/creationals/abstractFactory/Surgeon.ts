@@ -15,8 +15,8 @@ class Surgeon {
 
 const instrumentalistInJungle = new InstrumentalistInJungle();
 const instrumentalistInOperatingRoom = new InstrumentalistInOperatingRoom();
-
 const surgeon = new Surgeon();
+
 console.log("Operate in the Jungle");
 surgeon.operate(instrumentalistInJungle);
 console.log("- - - - -");
